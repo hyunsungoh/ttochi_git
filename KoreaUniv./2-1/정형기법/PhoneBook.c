@@ -1,8 +1,30 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define NAME_LEN    20
-#define PHONE_LEN   20
+#pragma warning(disable:4996)
+
+int i;
+char phone[100];
+
+int main()
+{
+    FindOp();
+}
+
+void FindOp()
+{
+    scanf("%d", i);
+    if (phone[i] > 10000 && phone[i] < 99999)
+        printf("this number is known\n");
+    if (phone[i] == -1)
+        printf("this number is unknown\n");
+}
+
+
+
+
+
+
 
 
 typedef struct TEL
